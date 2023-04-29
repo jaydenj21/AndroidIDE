@@ -1,0 +1,10 @@
+plugins {
+  id "org.sonarqube" version "4.0.0.2929"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "Static-Code-Analysis-3"
+    property "sonar.projectName", "Static Code Analysis 3"
+  }
+}
